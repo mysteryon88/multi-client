@@ -1,6 +1,10 @@
 # multi-client servers
 Multi-client server with streams
 
+OS: Oracle Linux Server Release 6.10
+
+Сompiler: gcc version 4.4.7 20120313 (Red Hat 4.4.7-23.0.1)
+
 ## client-server
 
 The server sends messages to all users every 30 seconds if its message buffer is not empty.
