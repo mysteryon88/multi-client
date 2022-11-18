@@ -7,11 +7,11 @@
 
 #include "list.h"
 
-#define PORT      2315
-#define TRUE      1
+#define PORT 2315
+#define TRUE 1
 #define MSG_COUNT 100
-#define MSG_LEN   100
-#define TIMEOUT   30
+#define MSG_LEN 100
+#define TIMEOUT 30
 
 pthread_mutex_t mutex;
 
@@ -19,7 +19,7 @@ list *clients_list; // list of clients
 
 char buffer[MSG_COUNT][MSG_LEN];
 
-int ind = 0; //counter msg
+int ind = 0; // counter msg
 int sock = 0;
 
 void sendtoall(char *msg);

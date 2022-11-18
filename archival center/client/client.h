@@ -10,19 +10,19 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-//for getting file size using stat()
-#include<sys/stat.h>
+// for getting file size using stat()
+#include <sys/stat.h>
 
-//for sendfile()
-#include<sys/sendfile.h>
+// for sendfile()
+#include <sys/sendfile.h>
 
-//for O_RDONLY
-#include<fcntl.h>
+// for O_RDONLY
+#include <fcntl.h>
 
-#define FILENAME_LEN  20
-#define BUF_LEN       100
-#define COM_LEN	      5
-#define TRUE          1
+#define FILENAME_LEN 20
+#define BUF_LEN 100
+#define COM_LEN 5
+#define TRUE 1
 
 int sock = 0;
 

@@ -1,6 +1,7 @@
 #include <malloc.h>
 
-typedef struct Node {
+typedef struct Node
+{
 	int value;
 	struct Node *next;
 } list;

@@ -6,9 +6,9 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-#define PORT      2315
-#define NAME      20
-#define MSG_LEN   100
+#define PORT 2315
+#define NAME 20
+#define MSG_LEN 100
 
 char msg[MSG_LEN];
 int sock = 0;
